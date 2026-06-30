@@ -26,7 +26,7 @@ const services = [
 
 const EnquirySection = () => {
   return (
-    <section className="w-full bg-[#f8f8f8] py-20 ">
+    <section className="w-full pb-8 bg-[#f8f8f8] py-20 ">
       <div className="max-w-7x1 mx-auto px-6">
 
         <div className="max-w-full flex gap-6 ">

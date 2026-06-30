@@ -51,12 +51,12 @@ const Navbar = () => {
 
         {/* Right Side */}
         <div className="hidden md:flex items-center gap-5">
-          <FiSearch size={32} className="cursor-pointer hover:text-yellow-400" />
-          <FiShoppingCart size={32} className="cursor-pointer hover:text-yellow-400" />
+          <FiSearch size={36} className="cursor-pointer hover:text-yellow-400 text-white" />
+          <FiShoppingCart size={36} className="cursor-pointer hover:text-yellow-400 text-white"/>
 
           <button className="relative overflow-hidden bg-yellow-500 text-white px-6 py-3 rounded-md group">
             <span className="absolute inset-0 bg-white scale-x-0 origin-center transition-transform duration-700 ease-in-out group-hover:scale-x-100"></span>
-            <span className="relative z-10 transition-colors duration-500 group-hover:text-black">
+            <span className="relative z-10 whitespace-nowrap transition-colors duration-500 group-hover:text-black">
               Get A Quote
             </span>
           </button>

@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const TopBar = () => {
   return (
-    <div className=" hidden lg:block  bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
+    <div className="hidden lg:block  bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
       {/* <div className="max-w-7xl mx-auto px-4 py-3"> */}
       <div className="w-full px-12 lg:px-20 py-3">
 
